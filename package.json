@@ -1,0 +1,36 @@
+{
+  "name": "@jlekie/artificer",
+  "version": "1.0.0-alpha.9",
+  "bin": {
+    "alchemist": "dist/alchemist.js",
+    "co": "dist/cohesion.js",
+    "cohesion": "dist/cohesion.js",
+    "git-laminar-flow": "dist/glf.js",
+    "glf": "dist/glf.js"
+  },
+  "scripts": {
+    "build": "tsc --build",
+    "publish": "yarn npm publish --access=public"
+  },
+  "dependencies": {
+    "@jlekie/alchemist": "workspace:^",
+    "@jlekie/alchemist-handlebars": "workspace:^",
+    "@jlekie/cohesion-cli": "workspace:^",
+    "@jlekie/git-laminar-flow": "workspace:^",
+    "@jlekie/git-laminar-flow-cli": "workspace:^",
+    "@jlekie/git-laminar-flow-plugin-alchemist": "workspace:^",
+    "@jlekie/git-laminar-flow-plugin-cohesion": "workspace:^",
+    "@jlekie/git-laminar-flow-plugin-csharp": "workspace:^",
+    "@jlekie/git-laminar-flow-plugin-nodejs": "workspace:^",
+    "@jlekie/git-laminar-flow-plugin-vars": "workspace:^",
+    "update-notifier": "^5.1.0"
+  },
+  "devDependencies": {
+    "@types/update-notifier": "^5",
+    "typescript": "^4.7.4"
+  },
+  "files": [
+    "/src",
+    "/dist"
+  ]
+}
