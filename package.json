@@ -1,6 +1,6 @@
 {
   "name": "@jlekie/artificer",
-  "version": "1.0.0-alpha.9",
+  "version": "1.0.0-alpha.11",
   "bin": {
     "alchemist": "dist/alchemist.js",
     "co": "dist/cohesion.js",
@@ -13,16 +13,16 @@
     "publish": "yarn npm publish --access=public"
   },
   "dependencies": {
-    "@jlekie/alchemist": "workspace:^",
-    "@jlekie/alchemist-handlebars": "workspace:^",
-    "@jlekie/cohesion-cli": "workspace:^",
-    "@jlekie/git-laminar-flow": "workspace:^",
-    "@jlekie/git-laminar-flow-cli": "workspace:^",
-    "@jlekie/git-laminar-flow-plugin-alchemist": "workspace:^",
-    "@jlekie/git-laminar-flow-plugin-cohesion": "workspace:^",
-    "@jlekie/git-laminar-flow-plugin-csharp": "workspace:^",
-    "@jlekie/git-laminar-flow-plugin-nodejs": "workspace:^",
-    "@jlekie/git-laminar-flow-plugin-vars": "workspace:^",
+    "@jlekie/alchemist": "workspace:*",
+    "@jlekie/alchemist-handlebars": "workspace:*",
+    "@jlekie/cohesion-cli": "workspace:*",
+    "@jlekie/git-laminar-flow": "workspace:*",
+    "@jlekie/git-laminar-flow-cli": "workspace:*",
+    "@jlekie/git-laminar-flow-plugin-alchemist": "workspace:*",
+    "@jlekie/git-laminar-flow-plugin-cohesion": "workspace:*",
+    "@jlekie/git-laminar-flow-plugin-csharp": "workspace:*",
+    "@jlekie/git-laminar-flow-plugin-nodejs": "workspace:*",
+    "@jlekie/git-laminar-flow-plugin-vars": "workspace:*",
     "update-notifier": "^5.1.0"
   },
   "devDependencies": {
