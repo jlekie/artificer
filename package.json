@@ -1,6 +1,6 @@
 {
   "name": "@jlekie/artificer",
-  "version": "1.0.0-alpha.12",
+  "version": "1.0.0-alpha.15",
   "bin": {
     "alchemist": "dist/alchemist.js",
     "co": "dist/cohesion.js",
